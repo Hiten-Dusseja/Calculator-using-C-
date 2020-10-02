@@ -63,7 +63,36 @@ scanf("%f",&b);
 c=pow(a,b);
 printf("The answer is %f\n",c);
 break;
-	
+
+ case't':
+
+printf("Enter the no.:\n");
+scanf("%f",&a);
+c=tan(a);
+printf("The answer is %f",c);
+break;
+
+case's':
+printf("Enter the no.:\n");
+scanf("%f",&a);
+c=sin(a);
+printf("The answer is %f",c);
+break;
+
+case'c':
+printf("Enter the no.:\n");
+scanf("%f",&a);
+c=cos(a);
+printf("The answer is %f",c);
+break;
+
+case'l':
+printf("Enter the no.:\n");
+scanf("%f",&a);
+c=log(a);
+printf("The answer is %f",c);
+break;
+/*incase if the user enters a wrong operator we are using default statement */
 
 
 default:
